@@ -1,0 +1,129 @@
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    height: 100vh;
+    width: 300px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+}
+
+.main-section {
+    margin-left: 320px;
+    margin-bottom: 40px;
+}
+
+.nav-header {
+    font-size: 32px;
+}
+
+a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+a, .nav-header {
+    border-bottom: 1px solid black;
+    padding: 32px;
+}
+
+header {
+    font-size: 32;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.python-header{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+h4 {
+    display: inline;   
+}
+
+h3 {
+    font-weight: bold;
+}
+
+
+
+code {
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 4px;
+    margin-top: 0px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.margin-top {
+    margin-top: 15px;
+}
+
+
+
+@media (max-width: 728px) {
+
+    a, .nav-header {
+        padding-bottom: 60px;
+    }
+
+    nav {
+        position: relative;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        height: 0;
+        width: 100vw;
+    }
+
+    .python-header{
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-right: 1px solid black;
+    }
+
+    a {
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-right: 1px solid black;
+        text-align: center;
+        vertical-align: middle;
+
+    }
+
+    #Introduction {
+        margin-left: 0;
+        margin-top: 150px;
+    }
+
+    .main-section {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+}

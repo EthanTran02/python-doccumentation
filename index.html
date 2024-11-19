@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <header class="nav-header python-header">Python Documentation</header>
+        <a href="#Introduction" class="nav-link">Introduction</a>
+        <a href="#Hello_World" class="nav-link">Hello World</a>
+        <a href="#Variable" class="nav-link">Variable</a>
+        <a href="#Data_Type" class="nav-link">Data Type</a>
+        <a href="#Arithmetic_Operators" class="nav-link">Arithmetic Operators</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section first-section" id="Introduction">
+            <header>Introduction</header>
+            <h3>What is Python?</h3>
+            <p>Python is a high-level, interpreted programming language renowned for its simplicity and versatility. Created by Guido van Rossum and first released in 1991, Python emphasizes readability and ease of use, making it an ideal language for both beginners and experienced developers. Its syntax closely resembles natural language, which helps reduce the complexity of coding and enhances the developer's productivity.</p>
+            <h3>Key Features:</h3>
+            <p>
+                <ul>
+                    <li>Readable and Maintainable Code: Python’s clear and straightforward syntax allows developers to write code that is easy to read and maintain.</li>
+                    <li>Interpreted Language: Python code is executed line-by-line, which simplifies debugging and allows for interactive coding.</li>
+                    <li>Dynamic Typing: Variables in Python do not require an explicit type declaration, making the language more flexible and dynamic.</li>
+                </ul>
+            </p>
+        </section>
+
+        <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <h3>Using print in Python</h3>
+            <p>The print() function in Python is a built-in function used to display information to the console or standard output. It is one of the most commonly used functions for debugging and communicating information in a Python program.</p>
+            <h3>Basic Syntax:</h3>
+            <code>print(object, ..., sep=' ', end='\n', file=sys.stdout, flush=False)</code>
+            <h3>Printing "Hello World!"</h3>
+            <p>To print the classic "Hello World!" message in Python, use the print() function as follows:</p>
+            <code>print("Hello World!")</code>
+        </section>
+
+        <section class="main-section" id="Variable">
+            <header>Variable</header>
+            <h3>Basic Concepts</h3>
+            <ol>
+                <li>Variable Declaration and Assignment: In Python, you declare a variable by simply assigning it a value. Python does not require explicit declaration of the variable type; it infers the type based on the assigned value.</li>
+                <li>Variable Naming Rules
+                    <ul class="margin-top">
+                        <li>Names must start with a letter (a-z, A-Z) or an underscore (_)</li>
+                        <li>The subsequent characters can be letters, numbers (0-9), or underscores</li>
+                    </ul>
+                </li>
+            </ol>
+            <h3>Example of Using Variables:</h3>
+            <code>username = "Alice"
+                age = 30
+                is_member = True
+            </code>
+        </section>
+
+        <section class="main-section first-section" id="Data_Type">
+            <header>Data Type</header>
+            <p>Data types in Python define the kind of value a variable can hold and the operations that can be performed on it. Python has several built-in data types, which can be categorized into several classes, including numeric types, sequence types, mapping types, set types, and boolean types.</p>
+            <h3>Numeric Types</h3>
+            <ol>
+                <li><h4>int</h4> (Integer): Represents whole numbers without a fractional component</li>
+                <li><h4>float</h4> (Floating Point): Represents numbers with a decimal point.</li>
+                <li><h4>complex</h4>: Represents complex numbers, which have a real and an imaginary part.</li>
+            </ol>
+        </section>
+
+        <section class="main-section" id="Arithmetic_Operators">
+            <header>Arithmetic Operators</header>
+            <p>Arithmetic operators in Python are used to perform basic mathematical operations on numerical values. These operators are straightforward and provide the fundamental functionality required for arithmetic calculations.</p>            
+            <ol>
+                <li><h4>Addition (+)</h4>
+                    <p>Adds two numbers.</p>
+                    <code>
+                        result = a + b
+                    </code>
+                </li>
+                <li><h4>Subtraction (-)</h4>
+                    <p>Subtracts one number from another.</p>
+                    <code>
+                        result = a - b
+                    </code>
+                </li>
+                <li><h4>Multiplication (*)</h4>
+                    <p>Multiplies two numbers.</p>
+                    <code>
+                        result = a * b
+                    </code>
+                </li>
+                <li><h4>Division (/)</h4>
+                    <p>Divides one number by another, resulting in a floating-point number.</p>
+                    <code>
+                        result = a / b
+                    </code>
+                </li>
+            </ol>
+            <h3>Summary:</h3>
+            <p>Arithmetic operators in Python provide essential functionality for performing mathematical operations. Understanding these operators and their precedence helps you write accurate and efficient expressions in your code.</p>
+        </section>
+
+    </main>
+</body>
+</html>
